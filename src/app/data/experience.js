@@ -1,0 +1,90 @@
+
+
+const experience = [
+    {
+        id: "1",
+        date: {start: "MAY 2014", to: "PRESENT"},
+        type: "FULL TIME",
+        role:"Training & Development Specialist",
+        company: {name:"Industrial Training Fund, Nigeria", url: "https://www.itf.gov.ng"},
+        tools: ["Microsoft Excel", "SEA Wheel", "Skills Matrix"],
+        job_desription: [
+                        "Conducted Training Needs Analyses for organizations, identifying "+ 
+                        "knowledge and skill gaps. Developed customized models resulting "+ 
+                        "in a 90% improvement in the accuracy of training needs "+ 
+                        "identification for client organizations",
+                        "Designed instructional materials and content in accordance with "+
+                        "learning objectives, employing the ADDIE instructional design model. ",
+                        "Skilled in analyzing training data and metrics to identify trends, "+ 
+                        "measure impact, and drive informed decisions for program enhancement "+ 
+                        "and optimization.",
+                        "Proficient in overseeing training projects from inception to fruition, "+ 
+                        "encompassing planning, scheduling, resource allocation, and stakeholder "+ 
+                        "communication.",
+                        "Proficient in utilizing training evaluation models and techniques to enhance "+
+                        "program effectiveness through data-driven improvements."
+        ]
+    },
+    {
+        id: "2",
+        date: {start: "MAY 2016", to: "PRESENT"},
+        type: "FREELANCE",
+        role:"Fullstack Web Developer",
+        company: {name:"Kernel Greens Integrated Services", url: "https://www.kgis.services"},
+        tools: ["NEXT.JS", "REACT", "NODE.JS", "REACT NATIVE", "MongoDB", "MySQL", "BOOTSTRAP"],
+        job_desription: [
+                        "Created a simple weather reporting Web and Mobile App using OpenWeatherMap & "+
+                        "OpenMeteo APIs",
+
+                        "Built a Marketplace App for Web and Mobile Users using Next.js, Context API "+
+                        "for state management and Firebase Backend",
+                        
+                        "Developed with Next.js, a testing platform now boasts dynamic page "+
+                        "routing and Redux toolkit integration for seamless state management."+
+                        "This upgrade has led to a remarkable 40% reduction in First Contentful Paint.",
+
+        ]
+    },
+    {
+        id: "3",
+        date: {start: "2019", to: "2022"},
+        type: "NON-STAFF POSITION",
+        role:" Business Skills & Reintegration Trainer/Consultant ",
+        company: {name:"(EU-IOM Joint initiative For The Reintegration Of Returned "+
+            "Migrants To Nigeria), Lagos, Nigeria", url: "iom.int"},
+        tools: ["", ""],
+        job_desription: [
+                        "Trained over 500 retumed migrants on business skills, value chains, and "+
+                        "cooperatives.",
+
+                        "Served as Rapporteur at the Case Management Committee Meetings of "+
+                        "IOM with Civil Society Organizations, Government Agencies and other "+
+                        "stakeholders.",
+                        
+                        "Collaborated with the Intemational Organization for Migration on gender-"+
+                        "responsive trainings and administered them accordingly.",
+
+                        "Work with international non-governmental organizations, civil society "+
+                        "organizations, government agencies and other stakeholders to design and "+
+                        "deliver customized training programs on gender equality, diversity and "+
+                        "inclusion.",
+
+                        "Reduced costs associated with external trainers by developing an internal "+
+                        "network of skilled facilitators who could lead programs as needed.",
+
+
+                        "Conducted training needs across various gender clusters.",
+
+                        "Develop curriculum and training materials",
+
+                        "facilitate workshops and seminars and provide ongoing support and "+
+                        "guidance to ensure that organizations are equipped to address gender-"+
+                        "related challenges effectively."
+        ]
+    },
+
+]
+
+export const getExperience = () =>{
+    return  experience;
+}
