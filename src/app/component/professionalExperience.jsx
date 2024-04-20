@@ -31,9 +31,8 @@ const ProfessionalExperience = () => {
           
                     <div className='grid-container'>
                     {experienceData.map(experience =>(
-                      <div className="grid-item">
-                        <ExperienceDiv key={experience.id} 
-                                      experience={experience}/>
+                      <div className="grid-item" key={experience.id}>
+                      <ExperienceDiv  experience={experience}/>
                       </div>
                     ))}
                     </div>                

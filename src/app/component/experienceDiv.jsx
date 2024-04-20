@@ -26,7 +26,7 @@ const ExperienceDiv = ({ experience }) => {
                 <div className='toolsContainer'>
                 {experience.tools.map(tool=>(
                     <>
-                    <div className='toolDiv' style={{display:"inline"}}>
+                    <div key={tool} className='toolDiv' style={{display:"inline"}}>
                             {tool}
                     </div>
                     </>
@@ -35,17 +35,19 @@ const ExperienceDiv = ({ experience }) => {
 
                 {showAdditionalContent && 
                     <div>{experience.job_desription.map(desc=>( 
-                        <div className='writeUp3Container'>
+                        <div key={desc} className='writeUp3Container'>
                             <p>{desc}</p><br/>
                         </div>
                             ))}
                     </div>}
 
+                        <div style={{justifyItems:"center"}}>
                         <BsButton onClick={toggleAdditionalContent}
                                 variant="primary"
                                 size="sm">
                             {showAdditionalContent ? < BiSolidUpArrow />  : <BiSolidDownArrow /> }
                         </BsButton>
+                        </div>
 
             </div>
         </div>

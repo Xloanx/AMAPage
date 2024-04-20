@@ -51,7 +51,7 @@ const experience = [
         type: "NON-STAFF POSITION",
         role:" Business Skills & Reintegration Trainer/Consultant ",
         company: {name:"(EU-IOM Joint initiative For The Reintegration Of Returned "+
-            "Migrants To Nigeria), Lagos, Nigeria", url: "iom.int"},
+            "Migrants To Nigeria), Lagos, Nigeria", url: "https://www.iom.int"},
         tools: ["", ""],
         job_desription: [
                         "Trained over 500 retumed migrants on business skills, value chains, and "+
