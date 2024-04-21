@@ -44,7 +44,7 @@ const Header = () => {
             </ul>
           </nav>
           <div className="headerUser">
-            <FaUser />
+            {/* <FaUser /> */}
             {/* <Link href="#">Login</Link> */}
           </div>
     </header>
