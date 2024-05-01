@@ -16,7 +16,7 @@ const handleSendEmail = () =>{
 }
 
 const handleWhatsAppLink =() =>{
-  window.location.href = `https://wa.me/${phonenumber}`
+  window.location.href = `https://wa.me/${phoneNumber}`
 }
 
 const handlePhoneCall = () =>{
