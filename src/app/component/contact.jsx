@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaPhoneAlt, FaLinkedin, FaInstagram, FaTwitter, FaGithub } from "react-icons/fa";
+import { FaPhoneAlt, FaLinkedin, FaInstagram, FaWhatsapp, FaGithub } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import Button  from 'react-bootstrap/Button';
 import Link from 'next/link'
@@ -13,6 +13,10 @@ const contact = ({links}) => {
 const handleSendEmail = () =>{
   const mailtoLink = "mailto:" + emailAddress;
   window.location.href = mailtoLink;
+}
+
+const handleWhatsAppLink =() =>{
+  window.location.href = `https://wa.me/${phonenumber}`
 }
 
 const handlePhoneCall = () =>{
@@ -68,6 +72,9 @@ const handleXTwitterLink = (url) =>{
       </button>
       <button onClick={()=>handleGitHubLink("https://github.com/xloanx")}>
         <FaGithub style={{ display: 'inline', marginRight:"10px" }} size={25}/>
+      </button>
+      <button onClick={()=>handleWhatsAppLink}>
+        <FaWhatsapp style={{ display: 'inline', marginRight:"10px" }} size={25}/>
       </button>
     </p>
 </div>
