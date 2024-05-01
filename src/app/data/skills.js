@@ -3,7 +3,8 @@ const skills = [
                     id: "1",
                 skill: "Web Development",
                 skillText: "Web App Design and Development with 6years of experience.\n"+ 
-                            "\n Toolsets include Next.js, React, Node.js, HTML, CSS"
+                            "\n Toolsets include Next.js, React, Node.js, HTML, CSS, MongoDB,"+
+                            "MySQL"
                 },
                 {
                     id: "2",

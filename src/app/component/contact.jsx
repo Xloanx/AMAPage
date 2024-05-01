@@ -7,11 +7,18 @@ import Link from 'next/link'
 
 const contact = ({links}) => {
 
-const handleSendEmail = () =>{
   const emailAddress = "odukayeabiodun@gmail.com";
+  const phoneNumber = +2348029161741;
+
+const handleSendEmail = () =>{
   const mailtoLink = "mailto:" + emailAddress;
-  // Open the user's default email client with the mailto link
   window.location.href = mailtoLink;
+}
+
+const handlePhoneCall = () =>{
+  
+  const placeCall = "tel:" + phoneNumber;
+  window.location.href = placeCall;
 }
 
 const handleGitHubLink =(url) =>{
@@ -47,7 +54,9 @@ const handleXTwitterLink = (url) =>{
     </p >
     
     <p > 
-      <FaPhoneAlt style={{ display: 'inline', marginRight:"10px" }}/> +2348029161741 <br /><br />
+      <FaPhoneAlt style={{ display: 'inline', marginRight:"10px" }}/> 
+        <Button variant="outline-success" onClick={handlePhoneCall}>{phoneNumber}</Button> <br /><br />
+
       <button onClick={()=>handleLinkedInLink("https://www.linkedin.com/in/abiodun-odukaye-847100164/")}>
         <FaLinkedin style={{ display: 'inline', marginRight:"10px" }} size={25}/>
       </button>
