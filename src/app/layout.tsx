@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     default: "Xloanx",
     template: "%s :: XloanxPage"
   },
-  description: "Web page for Abiodun Muhammad-Ahmad Odukaye"
+  description: "Personal Web page for Abiodun Muhammad-Ahmad Odukaye"
 };
 
 export default function RootLayout({

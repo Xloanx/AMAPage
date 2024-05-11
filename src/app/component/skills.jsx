@@ -1,3 +1,5 @@
+'use client'
+
 import React, {useState, useEffect} from 'react';
 import SkillsCard from './skillsCard';
 import { getSkills } from '../data/skills';
