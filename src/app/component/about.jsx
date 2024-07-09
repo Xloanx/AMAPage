@@ -4,9 +4,9 @@ import React from 'react';
 
 const About = () => {
   return (
-    <div id="about">
-    <h1 className='headings'>About Me</h1>
-    <div className='writeUp1Container'>
+    <div className='bg-slate-700 py-8 px-8' id="about">
+    <h1 className='font-sans text-3xl lg:text-4xl md:text-2xl sm:text-xl text-slate-50 font-extrabold text-center mb-4'>About Me</h1>
+    <div className='text-base text-justify text-slate-50 font-sans font-medium items-left self-start'>
     <p>
     Hello, my name is Abiodun Muhammad-Ahmad Odukaye and I am from Lagos, Nigeria. 
     I am a Senior Training & Development Specialist with the Industrial Training Fund (ITF) - A 
@@ -18,7 +18,7 @@ const About = () => {
     <p>
     An avid Tech enthusiast with a robust background spanning multiple years within the technology sector, adeptly 
     navigating various domains to spearhead innovation initiatives. Demonstrated expertise in conceptualizing and 
-    developing Applications geared towards enhancing process efficiency and productivity.
+    developing Enterprise Applications geared towards enhancing process efficiency and productivity.
     </p>
     </div>
     </div>

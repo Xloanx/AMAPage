@@ -1,12 +1,13 @@
-'use client'
 
 import React from 'react'
 
 const Projects = () => {
   return (
-    <div style={{backgroundColor:"#333", height:"100vh"}} id="projects">
+    <div className="bg-slate-300 py-8 px-8" id="projects">
 
-                <h1 className='headings' style={{color:"#fff"}} >Projects</h1>
+<h1 className='font-sans text-3xl lg:text-4xl md:text-2xl sm:text-xl text-slate-950 font-extrabold text-center mb-4' >
+                    Projects
+                </h1>
  
     </div>
   )

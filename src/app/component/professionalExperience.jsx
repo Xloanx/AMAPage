@@ -1,43 +1,26 @@
-"use client"
 
-import React, { useState, useEffect } from 'react'
-import Stack from 'react-bootstrap/Stack';
 import { getExperience } from './../data/experience';
 import ExperienceDiv from './experienceDiv';
+import {Flex, Box} from '@radix-ui/themes'
 
-const ProfessionalExperience = () => {
-    const [experienceData, setExperienceData] = useState([]);
-
-    useEffect(() => {
-        const fetchExperienceData = async () => {
-          try {
-            const response = await getExperience();
-            if (!response) {
-              throw new Error('Failed to fetch Experience');
-            }
-            setExperienceData(response);
-          } catch (error) {
-            console.error('Error fetching Experience:', error);
-          }
-        };
+const ProfessionalExperience = async () => {
+  const experienceData = getExperience();
     
-        fetchExperienceData();
-      }, []);
-
 
 
   return (
-            <div id="experience">
-                <h1 className='headings' >Professional Experience</h1>
-
-          
-                    <div className='grid-container'>
+            <div className='bg-slate-700 py-8 px-8' id="experience">
+                <h1 className='font-sans text-3xl lg:text-4xl md:text-2xl sm:text-xl text-slate-50 font-extrabold text-center mb-4' >Professional Experience</h1>
+                          
+                    <Flex gap="3" wrap="wrap" >
                     {experienceData.map(experience =>(
                       <div className="grid-item" key={experience.id}>
                       <ExperienceDiv  experience={experience}/>
                       </div>
                     ))}
-                    </div>                
+                    </Flex>   
+
+                    
             </div>
   )
 }

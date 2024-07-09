@@ -50,34 +50,34 @@ const handleXTwitterLink = (url) =>{
 
   return (
     <>
-        <div style={{backgroundColor:"#333", height:"60vh"}} id="contact">
+        <div className="bg-slate-300 py-8 px-8" id="contact">
 
-<h1 className='headings' style={{color:"#fff"}}>Contact Me</h1>
+<h1 className='font-sans text-3xl lg:text-4xl md:text-2xl sm:text-xl text-slate-950 font-extrabold text-center mb-4'>Contact Me</h1>
 
-<div className='writeUp2Container'>
-    <p >
+<div className='text-base text-amber-950 font-sans font-medium items-center self-start'>
+    <p className='text-center'>
       Whether Large or small projects, quality project delivery is the watch word! <br/><br/>
       Ready to start? You can reach me through the media below.<br /><br />
       <Button variant="outline-success" onClick={handleSendEmail}>Send me an email!</Button> <br /><br />
     </p >
     
-    <p > 
-      <FaPhoneAlt style={{ display: 'inline', marginRight:"10px" }}/> 
-        <Button variant="outline-success" onClick={handlePhoneCall}>{phoneNumber}</Button> <br /><br />
+    <p className='text-center'> 
+      <FaPhoneAlt className="text-green-500" style={{ display: 'inline', marginRight:"10px" }}/> 
+        <Button  className="text-green-500" variant="outline-success" onClick={handlePhoneCall}>{phoneNumber}</Button> <br /><br />
 
-      <button onClick={()=>handleLinkedInLink("https://www.linkedin.com/in/abiodun-odukaye-847100164/")}>
+      <button  className="text-blue-500" onClick={()=>handleLinkedInLink("https://www.linkedin.com/in/abiodun-odukaye-847100164/")}>
         <FaLinkedin style={{ display: 'inline', marginRight:"10px" }} size={25}/>
       </button>
-      <button onClick={()=>handleXTwitterLink("https://twitter.com/AOdukaye76472")}>
+      <button  className="text-stone-950" onClick={()=>handleXTwitterLink("https://twitter.com/AOdukaye76472")}>
         <FaXTwitter style={{ display: 'inline', marginRight:"10px" }} size={25}/>
       </button>
-      <button onClick={()=>handleInstagramLink("https://www.instagram.com/engrxloanx/")}>
+      <button  className="text-pink-500" onClick={()=>handleInstagramLink("https://www.instagram.com/engrxloanx/")}>
         <FaInstagram style={{ display: 'inline', marginRight:"10px" }} size={25}/>
       </button>
-      <button onClick={()=>handleGitHubLink("https://github.com/xloanx")}>
+      <button className="text-stone-950" onClick={()=>handleGitHubLink("https://github.com/xloanx")}>
         <FaGithub style={{ display: 'inline', marginRight:"10px" }} size={25}/>
       </button>
-      <button onClick={handleWhatsAppLink}>
+      <button className='text-green-500' onClick={handleWhatsAppLink}>
         <FaWhatsapp style={{ display: 'inline', marginRight:"10px" }} size={25}/>
       </button>
     </p>

@@ -1,9 +1,8 @@
-'use client'
 import React from 'react'
-import {useRouter} from 'next/navigation'
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa6";
-import Button  from 'react-bootstrap/Button';
+import { Button, Box, Flex, Badge } from '@radix-ui/themes';
+import Link from 'next/link';
 
 
 
@@ -14,44 +13,39 @@ const Intro = ({links}) => {
   const linkedIn = links.linkedIn;
   const resume = links.resume;
 
-  const router = useRouter()
-  const handleGitHubLink =(url) =>{
-    window.open(url, '_blank');
-  }
-
-  const handleLinkedInLink = (url) =>{
-    window.open(url, '_blank');
-  }
-
-  const handleCvDisplay = (url) =>{
-    window.open(url, '_blank');
-  }
 
   return (
-    <div className='intro' id="intro">
-    <p className='name'>Abiodun Muhammad-Ahmad Odukaye</p>
-    <p className='role'> Senior Training & Development Specialist || FullStack Web Developer  </p>
-    <div className="ProfileIconContainer">
-      <button onClick={()=>handleGitHubLink(github)}>
-      <FaGithub style={{ display: 'inline', marginRight:"10px" }} size={25}/>
-      </button>
-        
-      <button onClick={()=>handleLinkedInLink( linkedIn)}>
-        <FaLinkedin  style={{ display: 'inline' }} size={25}/>
-      </button>
-            
-    </div>
-    <div>
+    <div className='bg-slate-700 py-28' id="intro">
+      <div className='mb-6'>
+        <p className='font-sans text-5xl lg:text-6xl md:text-4xl sm:text-3xl text-slate-50 font-extrabold text-center'>Abiodun Muhammad-Ahmad </p>
+        <p className='font-sans text-7xl lg:text-9xl md:text-6xl sm:text-5xl text-slate-50 font-extrabold text-center'>Odukaye</p>
+      </div>
+      <p className='font-mono text-2xl lg:text-2xl md:text-xl sm:text-lg tracking-wider text-slate-50 drop-shadow-md-2xl text-center mb-6'> Senior Training & Development Specialist || FullStack Web Developer  </p>
 
-    <Button 
-      variant="dark" 
-      className='resumeButton'
-      onClick={()=>handleCvDisplay(resume)}>
-        View My Resume
-    </Button>
-    </div>
+      <div className="flex justify-center text-slate-50 gap-x-4 mb-6">
+          <Link href={github} passHref legacyBehavior>
+            <a target="_blank">
+              <FaGithub size={25}/>
+            </a> 
+          </Link>
 
-     
+          <Link href={linkedIn} passHref legacyBehavior>
+            <a target="_blank"> 
+              <FaLinkedin  size={25}/> 
+            </a>
+          </Link>   
+      </div>
+
+      <div className="flex justify-center ">
+        <Badge variant="outline" radius="full"> 
+          <Link href={resume} passHref legacyBehavior> 
+            <a target="_blank">
+              <span className="text-slate-50 text-base">View My Resume</span>
+            </a>
+        </Link> 
+        </Badge>
+
+      </div>
     </div>
   )
 }

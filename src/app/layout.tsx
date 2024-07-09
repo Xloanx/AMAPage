@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import Head from 'next/head';
 import { Inter } from "next/font/google";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import '@radix-ui/themes/styles.css';
+import { Theme } from '@radix-ui/themes';
 import './globals.css'
 import Header from './component/header'
 import Footer from './component/footer'
@@ -25,12 +27,13 @@ export default function RootLayout({
     <html lang="en">
       <Head>
 			  <link rel='icon' href='/favicon.png' />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
 		  </Head>
       <body>
         <Header />
-        <div className="content">
+          <Theme>
           {children}
-        </div>
+          </Theme>
         <Footer />  
       </body>
     </html>
