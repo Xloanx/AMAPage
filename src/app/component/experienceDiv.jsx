@@ -28,9 +28,9 @@ const ExperienceDiv = ({ experience }) => {
                             <Link href={experience.company.url} className='text-sm font-sans text-center'> {experience.company.name}</Link>
                           </div>
                           {experience.tools.map(tool=>(
-                                <div key={tool} style={{display:"inline"}}>
-                                <Badge  variant="outline" color="gray" className='space-x-4'>
-                                <span className='text-slate-100'>{tool}</span> 
+                                <div key={tool} className='space-x-4' style={{display:"inline"}}>
+                                <Badge  variant="outline" color="gray" >
+                                <span className='text-orange-900'>{tool}</span> 
                                 </Badge>
                                 </div>
                             ))}
