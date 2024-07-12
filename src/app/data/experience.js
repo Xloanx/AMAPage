@@ -20,7 +20,7 @@ const experience = [
                         "for state management and Firebase Backend",
                         
                         "Developed an educational testing platform that allows random educational providers"+
-                        "to deliver tests to their students' knowledge. The App is designed using technologies"+
+                        "to deliver tests and evaluate their students' knowledge. The App is designed using technologies"+
                         "such as React.JS, React Native, Redux Toolkit, MongoDB and Taiwind CSS.",
 
         ]
@@ -36,17 +36,18 @@ const experience = [
                         "Conducted Training Needs Analyses and analyzing assessment data for organizations, identifying "+ 
                         "knowledge and skill gaps, leading to the development of customized models resulting "+ 
                         "in a 90% improvement in the accuracy of training needs "+ 
-                        "identification for client organizations",
+                        "identification for client organizations.",
 
                         "Designed instructional materials and content in accordance with "+
-                        "learning objectives, employing the ADDIE instructional design model. ",
+                        "learning objectives, employing the ADDIE instructional design model.",
                         
-                        "Proficient in overseeing training projects from inception to fruition, "+ 
-                        "encompassing planning, scheduling, and stakeholder communication, resulting"+ 
-                        "in adequate resource allocation and process & productivity Efficiency",
-
-                        "Proficient in leveraging training evaluation models and techniques to optimize"+ 
-                        "program effectiveness, emphasizing ROI-driven enhancements through data-driven strategies."
+                        "Skilled in ensuring adequate resource allocation and optimizing processes and productivity for "+
+						"training projects from analysis to evaluation, with a focus on driving ROI enhancements through "+
+						"data-driven strategies.",
+						
+						"Collaborated on developing the organization's Enterprise Resource Planning system, enhancing "+
+						"efficiency, productivity, collaboration, and regulatory compliance, with a strong emphasis on "+
+						"exceeding customer service delivery expectations."
         ]
     },
 
