@@ -5,10 +5,16 @@ const experience = [
         id: "1",
         date: {start: "MAY 2016", to: "PRESENT"},
         type: "FREELANCE",
-        role:"Fullstack Web Developer",
+        role:"Software/Machine Learning Engineer",
         company: {name:"Kernel Greens Integrated Services", url: "https://www.kernelgreens.com"},
-        tools: ["NEXT.JS", "REACT", "NODE.JS", "REACT NATIVE", "MongoDB", "MySQL", "BOOTSTRAP"],
+        tools: ["Next.js", "React", "Node.js", "HTML", "CSS", "React Native", "MongoDB", "MySQL",
+                    "Python", "Pandas", "Numpy", "Matplotlib", "SciKit", "TensorFlow"],
         job_desription: [
+
+                        "Developed a predictive machine learning model to forecast climate-sensitive "+
+                        "waterborne disease outbreaks in Tanzania, leveraging climate, sanitation, and "+
+                        "water quality datasets. Achieved a highly competitive Mean Absolute Error score "+
+                        "and contributed to actionable insights for public health interventions",
 
                         "Built an enterprise Issue Tracking system (Mobile & Web) that drives service"+
                         "delivery and customer satisfaction using Next.js, Context API, MySQL, Prisma-IO"+
