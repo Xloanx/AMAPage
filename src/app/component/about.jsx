@@ -10,15 +10,20 @@ const About = () => {
     <p>
     Hello, my name is Abiodun Muhammad-Ahmad Odukaye and I am from Lagos, Nigeria. 
     I am a Senior Training & Development Specialist with the Industrial Training Fund (ITF) - A 
-    Federal Government of Nigeria Agency charged with the responsibiliity of developing the Nation&apos;s Human Resource.
-    I joined ITF in 2014 and I have over time consulted for various organizations and trained several partcipants on
+    Federal Government of Nigeria Agency charged with the responsibility of developing the Nation&apos;s Human Resource.
+    I have over time consulted for various organizations and trained several partcipants on
     various technical, business, leadership and management workshops.
     </p><br />
     
     <p>
-    An avid Tech enthusiast with a robust background spanning multiple years within the technology sector, adeptly 
-    navigating various domains to spearhead innovation initiatives. Demonstrated expertise in conceptualizing and 
-    developing Enterprise Applications geared towards enhancing process efficiency and productivity.
+    
+    I am a passionate technology professional with a proven track record of innovation and excellence in the tech industry. 
+    With extensive experience across diverse domains, I specialize in designing and developing enterprise-grade 
+    applications that drive operational efficiency and elevate productivity.
+    My expertise lies in leveraging cutting-edge technologies and frameworks to craft intelligent solutions, solve complex 
+    challenges, and deliver exceptional user experiences. Beyond technical proficiency, I am dedicated to fostering 
+    innovation, mentoring emerging talent, and aligning technical strategies with overarching business goals to achieve 
+    impactful results.
     </p>
     </div>
     </div>
