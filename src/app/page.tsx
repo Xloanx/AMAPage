@@ -17,7 +17,7 @@ export default function Home() {
     xtwitter : "https://twitter.com/AOdukaye76472",
     instagram: "https://www.instagram.com/engrxloanx/",
     github: "https://github.com/xloanx",
-    resume: "/odukaye_abiodun_2024.pdf"
+    resume: "/odukaye_abiodun_2025.pdf"
   }
 
   return (
