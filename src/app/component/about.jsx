@@ -8,9 +8,10 @@ const About = () => {
     <h1 className='font-sans text-3xl lg:text-4xl md:text-2xl sm:text-xl text-slate-50 font-extrabold text-center mb-4'>About Me</h1>
     <div className='text-base text-justify text-slate-50 font-sans font-medium items-left self-start'>
     <p>
-    Hello, my name is Abiodun Muhammad-Ahmad Odukaye and I am from Lagos, Nigeria. 
-    I am a Senior Training & Development Specialist with the Industrial Training Fund (ITF) - A 
-    Federal Government of Nigeria Agency charged with the responsibility of developing the Nation&apos;s Human Resource.
+    Abiodun Muhammad-Ahmad Odukaye is proudly from Lagos, Nigeria. 
+    A Senior Training & Development Specialist with over 12 years of training experience 
+    in the Industrial Training Fund (ITF) - A Federal Government of Nigeria Agency charged 
+    with the responsibility of developing the Nation&apos;s Human Resource.
     I have over time consulted for various organizations and trained several partcipants on
     various technical, business, leadership and management workshops.
     </p><br />
