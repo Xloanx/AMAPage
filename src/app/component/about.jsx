@@ -6,7 +6,7 @@ const About = () => {
   return (
     <div className='bg-slate-700 py-8 px-8' id="about">
     <h1 className='font-sans text-3xl lg:text-4xl md:text-2xl sm:text-xl text-slate-50 font-extrabold text-center mb-4'>About Me</h1>
-    <div className='text-base text-justify text-slate-50 font-sans font-medium items-left self-start'>
+    <div className='text-base text-center text-slate-50 font-sans font-medium items-left self-start mx-52'>
     <p>
     Abiodun Muhammad-Ahmad Odukaye is proudly from Lagos, Nigeria. 
     A Senior Training & Development Specialist with over 12 years of training experience 

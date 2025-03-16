@@ -5,11 +5,16 @@ const experience = [
         id: "1",
         date: {start: "MAY 2016", to: "PRESENT"},
         type: "FREELANCE",
-        role:"Software/Machine Learning Engineer",
+        role:"Fullstack/AI Solutions Engineer",
         company: {name:"Kernel Greens Integrated Services", url: "https://www.kernelgreens.com"},
         tools: ["Next.js", "React", "Node.js", "HTML", "CSS", "React Native", "MongoDB", "MySQL",
-                    "Python", "Pandas", "Numpy", "Matplotlib", "SciKit", "TensorFlow"],
+                    "Python", "Pandas", "Numpy", "Matplotlib", "SciKit", "TensorFlow", "LangChain", 
+                    "OpenAI API", "Groq Llama3","Vector Databases"],
         job_desription: [
+
+                        "Developed an LLM-powered email generation system that personalizes cold "+
+                        "emails based on industry and engagement history thereby increasing engagement "+
+                        "rates and outreach efficiency.",
 
                         "Developed a predictive machine learning model to forecast climate-sensitive "+
                         "waterborne disease outbreaks in Tanzania, leveraging climate, sanitation, and "+
@@ -20,10 +25,11 @@ const experience = [
                         "delivery and customer satisfaction using Next.js, Context API, MySQL, Prisma-IO"+
                         "and Tailwind-CSS dependent libraries.",
 
-                        "Created a simple weather reporting Web and Mobile App using OpenWeatherMap API",
+                        "Developed an AI-driven chat platform enabling real-time conversations with AI characters.",
 
-                        "Built a Marketplace App for Web and Mobile Users using Next.js, Context API "+
-                        "for state management and Firebase Backend",
+                        "Designed and implemented an end-to-end AI-powered system for real-time stock and "+
+                        "financial insights, leveraging 6-hourly web scraping, AI-driven query processing, "+
+                        "vector databases, and predictive analytics to enhance data-driven decision-making.",
                         
                         "Developed an educational testing platform that allows random educational providers"+
                         "to deliver tests and evaluate their students' knowledge. The App is designed using technologies"+

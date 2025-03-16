@@ -20,6 +20,18 @@ const skills = [
                     id: "4",
                     skill: "Machine Learning",
                     skillText: "Using Python, Pandas, Numpy, Matplotlib, SciKit"
+                },
+                {
+                    id: "5",
+                    skill: "AI Solutions Engineering",
+                    skillText: "Web Scraping & Data Processing, Retrieval-Augmented Generation (RAG), "+
+                                "Embedding & Vector Search and Process Automation"
+                },
+                {
+                    id: "6",
+                    skill: "Training  & Development",
+                    skillText: "Needs Analysis, Content/Curriculum Development, Training Delivery, "+
+                    "Training Evaluation, Coaching, Mentoring"
                 }
 ]
 

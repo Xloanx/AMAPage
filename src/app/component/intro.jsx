@@ -17,10 +17,17 @@ const Intro = ({links}) => {
   return (
     <div className='bg-slate-700 py-28' id="intro">
       <div className='mb-6'>
-        <p className='font-sans text-5xl lg:text-6xl md:text-4xl sm:text-3xl text-slate-50 font-extrabold text-center'>Abiodun Muhammad-Ahmad </p>
-        <p className='font-sans text-7xl lg:text-9xl md:text-6xl sm:text-5xl text-slate-50 font-extrabold text-center'>Odukaye</p>
+        <p className='font-sans text-5xl lg:text-6xl 
+                      md:text-4xl sm:text-3xl 
+                      text-slate-50 font-extrabold text-center'>Abiodun Muhammad-Ahmad </p>
+        <p className='font-sans text-7xl lg:text-9xl 
+                      md:text-6xl sm:text-5xl 
+                      text-slate-50 font-extrabold text-center'>Odukaye</p>
       </div>
-      <p className='font-mono text-2xl lg:text-2xl md:text-xl sm:text-lg tracking-wider text-slate-50 drop-shadow-md-2xl text-center mb-6'> Software/Machine Learning Engineer || Training & Development Specialist </p>
+      <p className='font-mono text-2xl lg:text-2xl 
+                    md:text-xl sm:text-lg tracking-wider 
+                    text-slate-50 drop-shadow-md-2xl text-center mb-6'> 
+                      Fullstack/AI Solutions Learning Engineer || Training & Development Specialist </p>
 
       <div className="flex justify-center text-slate-50 gap-x-4 mb-6">
           <Link href={github} passHref legacyBehavior>
