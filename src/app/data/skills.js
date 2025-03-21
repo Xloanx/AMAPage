@@ -8,13 +8,15 @@ const skills = [
                 },
                 {
                     id: "2",
-                    skill: "UI/UX",
-                    skillText: "Product Design using Figma"
+                    skill: "AI Solutions Engineering",
+                    skillText: "Web Scraping & Data Processing, Retrieval-Augmented Generation (RAG), "+
+                                "Embedding & Vector Search and Process Automation"
                 },
                 {
-                    id:"3",
-                    skill: "Cloud Technologies ",
-                    skillText: "Using AWS Cloud Technologies, Set-up, Migrations and Management"
+                    id: "3",
+                    skill: "Training  & Development",
+                    skillText: "Needs Analysis, Content/Curriculum Development, Training Delivery, "+
+                    "Training Evaluation, Coaching, Mentoring"
                 },
                 {
                     id: "4",
@@ -23,16 +25,15 @@ const skills = [
                 },
                 {
                     id: "5",
-                    skill: "AI Solutions Engineering",
-                    skillText: "Web Scraping & Data Processing, Retrieval-Augmented Generation (RAG), "+
-                                "Embedding & Vector Search and Process Automation"
+                    skill: "UI/UX",
+                    skillText: "Product Design using Figma"
                 },
                 {
-                    id: "6",
-                    skill: "Training  & Development",
-                    skillText: "Needs Analysis, Content/Curriculum Development, Training Delivery, "+
-                    "Training Evaluation, Coaching, Mentoring"
-                }
+                    id:"6",
+                    skill: "Cloud Technologies ",
+                    skillText: "Using AWS Cloud Technologies, Set-up, Migrations and Management"
+                },
+                
 ]
 
 export const  getSkills = () =>{

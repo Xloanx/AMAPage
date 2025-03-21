@@ -27,7 +27,7 @@ const Intro = ({links}) => {
       <p className='font-mono text-2xl lg:text-2xl 
                     md:text-xl sm:text-lg tracking-wider 
                     text-slate-50 drop-shadow-md-2xl text-center mb-6'> 
-                      Fullstack/AI Solutions Learning Engineer || Training & Development Specialist </p>
+                      Fullstack/AI Solutions Engineer || Training & Development Specialist </p>
 
       <div className="flex justify-center text-slate-50 gap-x-4 mb-6">
           <Link href={github} passHref legacyBehavior>
