@@ -5,7 +5,7 @@ export const projects=[
     title: "Stock Advisory System",
     details:{
         challenge: "The stock market is highly volatile, and traders often make poor investment decisions due to lack of access to timely and relevant market insights. Traditional financial news sources are often delayed or fail to provide actionable insights tailored to an investor’s specific query. This system bridges that gap by scraping, processing, and retrieving critical financial information, offering traders clear, data-backed guidance before making investment decisions.",
-        solution: "At Kernel Greens Integrated Services, we developed an advanced Retrieval-Augmented Generation (RAG)-powered financial advice system designed to assist stock traders in making informed and data-driven investment decisions. The system focuses on providing real-time insights on high-profile stocks—NVIDIA (NVDA), Tesla (TSLA), and Alphabet (GOOG)—by continuously gathering and processing stock-related news and discussions from the internet.",
+        solution: "I developed an advanced Retrieval-Augmented Generation (RAG)-powered financial advice system designed to assist stock traders in making informed and data-driven investment decisions. The system focuses on providing real-time insights on high-profile stocks—NVIDIA (NVDA), Tesla (TSLA), and Alphabet (GOOG)—by continuously gathering and processing stock-related news and discussions from the internet.",
         remark: "The solution leverages automated web scraping, natural language processing (NLP), vector-based search, and large language models (LLMs) to provide real-time, contextualized financial advice."
     },
     images:"/projects/1/1.jpg",
@@ -43,19 +43,19 @@ export const projects=[
     demo:"https://resolvo.vercel.app"
     },
 
-    // {
-    // pid:4,
-    // sid:"software-development",
-    // title: "Stock Advisory System2",
-    // details:{
-    //     challenge: "The stock market is highly volatile, and traders often make poor investment decisions due to lack of access to timely and relevant market insights. Traditional financial news sources are often delayed or fail to provide actionable insights tailored to an investor’s specific query. This system bridges that gap by scraping, processing, and retrieving critical financial information, offering traders clear, data-backed guidance before making investment decisions.",
-    //     solution: "At Kernel Greens Integrated Services, we developed an advanced Retrieval-Augmented Generation (RAG)-powered financial advice system designed to assist stock traders in making informed and data-driven investment decisions. The system focuses on providing real-time insights on high-profile stocks—NVIDIA (NVDA), Tesla (TSLA), and Alphabet (GOOG)—by continuously gathering and processing stock-related news and discussions from the internet.",
-    //     remark: "The solution leverages automated web scraping, natural language processing (NLP), vector-based search, and large language models (LLMs) to provide real-time, contextualized financial advice."
-    // },
-    // images:"/projects/1/1.jpg",
-    // source:["https://github.com/Xloanx/gamma-advisor", "https://github.com/Xloanx/gamma-advisor-backend"],
-    // demo:"https://gamma-advisor.vercel.app"
-    // },
+    {
+    pid:4,
+    sid:"software-development",
+    title: "AI-Powered YouTube Video Summarization System",
+    details:{
+         challenge: "In today's fast-paced world, people want to stay updated on YouTube content but don’t always have the time to watch full videos. Whether it’s a movie, a documentary, or an educational video, users need a way to grasp key insights quickly without watching the entire video.",
+         solution: "My team developed an AI-driven YouTube video summarization system that allows users to retrieve concise, accurate, and structured summaries based on a YouTube video title or free-text prompt. The system uses function-calling AI techniques to Identify the correct video, extract and analyze its transcript, and generate a detailed yet concise summary—all while ensuring relevance and accuracy.",
+         remark: "Our implementation explored employed YouTube Video Search, Transcript Retrieval & Processing, AI-Powered Summarization using LangChain & LLMs, Accurate YouTube Video Linking, Text-to-Speech (TTS) Support, Interactive Frontend (Next.js)."
+    },
+    images:"/projects/1/1.jpg",
+    source:["https://github.com/Xloanx/youtube_summarizer_frontend", "https://github.com/Xloanx/gamma-youtube-rear"],
+    demo:"https://youtube-summarizer-frontend-two.vercel.app/"
+    },
 
     // {
     // pid:5,
@@ -71,3 +71,4 @@ export const projects=[
     // demo:"https://gamma-advisor.vercel.app"
     // },
     ]
+	
